@@ -1,0 +1,168 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.background-index
+{
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    padding: 100px 0 150px 0;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container
+{
+    padding: 0 350px;
+}
+
+.btn
+{
+    color: white;
+    padding: 20px 45px;
+    border-radius: 64px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+
+.btn.orange
+{
+    background-color: #ed9619;
+}
+
+.content_one
+{
+    width: 45%;
+}
+
+.content_one>p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 42px;
+    color: white;
+}
+
+.content_one>p>span
+{
+    color: rgb(0, 255, 149);
+}
+
+.content_one>h6
+{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 65%;
+}
+
+.content_two
+{
+    display: flex;
+}
+
+.content_two>img
+{
+    transform: scale(0.8);
+    margin-top: -10%;
+}
+
+.intro
+{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro>h6
+{
+    color: black;
+    font-size: 36px;
+}
+
+.intro>div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro_list>img
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+.intro_list>div
+{
+    width: 70%;
+    margin: 0 20px 0 0;
+}
+
+.intro_list>div>h6
+{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro_list>div>p
+{
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+.footer
+{
+    width: 100%;
+    height: 500px;
+    background-color: #efecf4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer>form>input
+{
+    width: 400px;
+    padding: 15px 25px;
+    border-radius: 64px;
+    outline: none;
+    border: 1px solid gray;
+}
